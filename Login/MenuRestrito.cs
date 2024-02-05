@@ -193,16 +193,23 @@ namespace Login
 
         private void btnReceber_Click(object sender, EventArgs e)
         {
-            GravarVenda();
-
-            dgvListaProdutos.Rows.Clear();
-            valorTotalVenda = 0;
-            lbSubtotal.Text = "00,00";
-            lbTroco.Text = "00,00";
-            lbTotalRecebido.Text = "00,00";
-            LimparCampos();
-            GerarCodigoVenda();
-            MessageBox.Show("Vamos iniciar uma nova venda!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if(valorTotalVenda != 0)
+            {
+                GravarVenda();
+                dgvListaProdutos.Rows.Clear();
+                valorTotalVenda = 0;
+                lbSubtotal.Text = "00,00";
+                lbTroco.Text = "00,00";
+                lbTotalRecebido.Text = "00,00";
+                LimparCampos();
+                GerarCodigoVenda();
+                MessageBox.Show("Vamos iniciar uma nova venda!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Preencha os campos corretamente!", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtCodigo.Focus();
+            }
         }
 
         private void MenuRestrito_Load(object sender, EventArgs e)
