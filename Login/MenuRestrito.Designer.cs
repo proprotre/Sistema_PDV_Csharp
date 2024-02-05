@@ -223,7 +223,7 @@
             // 
             // panel7
             // 
-            panel7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel7.Anchor = AnchorStyles.Right;
             panel7.BackColor = Color.RoyalBlue;
             panel7.Controls.Add(label2);
             panel7.Location = new Point(0, 0);
@@ -233,7 +233,7 @@
             // 
             // label2
             // 
-            label2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label2.Anchor = AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Window;
@@ -245,7 +245,7 @@
             // 
             // panel8
             // 
-            panel8.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel8.Anchor = AnchorStyles.Right;
             panel8.BackColor = Color.Gainsboro;
             panel8.Controls.Add(panel23);
             panel8.Controls.Add(txtCodigo);
@@ -276,7 +276,7 @@
             // 
             // panel9
             // 
-            panel9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel9.Anchor = AnchorStyles.Right;
             panel9.BackColor = Color.Gainsboro;
             panel9.Controls.Add(panel24);
             panel9.Controls.Add(txtQuantidade);
@@ -307,7 +307,7 @@
             // 
             // panel10
             // 
-            panel10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel10.Anchor = AnchorStyles.Right;
             panel10.BackColor = Color.RoyalBlue;
             panel10.Controls.Add(label3);
             panel10.Location = new Point(0, 0);
@@ -317,7 +317,7 @@
             // 
             // label3
             // 
-            label3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label3.Anchor = AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.Window;
@@ -329,7 +329,7 @@
             // 
             // panel11
             // 
-            panel11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel11.Anchor = AnchorStyles.Right;
             panel11.BackColor = Color.Gainsboro;
             panel11.Controls.Add(label12);
             panel11.Controls.Add(lbValorUnitario);
@@ -363,7 +363,7 @@
             // 
             // panel12
             // 
-            panel12.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel12.Anchor = AnchorStyles.Right;
             panel12.BackColor = Color.RoyalBlue;
             panel12.Controls.Add(label4);
             panel12.Location = new Point(0, 0);
@@ -373,7 +373,7 @@
             // 
             // label4
             // 
-            label4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
             label4.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.Window;
@@ -385,7 +385,7 @@
             // 
             // panel13
             // 
-            panel13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel13.Anchor = AnchorStyles.Right;
             panel13.BackColor = Color.Gainsboro;
             panel13.Controls.Add(label13);
             panel13.Controls.Add(panel14);
@@ -408,7 +408,7 @@
             // 
             // panel14
             // 
-            panel14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel14.Anchor = AnchorStyles.Right;
             panel14.BackColor = Color.RoyalBlue;
             panel14.Controls.Add(label5);
             panel14.Location = new Point(0, 0);
@@ -418,7 +418,7 @@
             // 
             // label5
             // 
-            label5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label5.Anchor = AnchorStyles.Right;
             label5.AutoSize = true;
             label5.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.Window;
@@ -485,7 +485,7 @@
             // 
             // panel3
             // 
-            panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel3.BackColor = Color.Gainsboro;
             panel3.Controls.Add(label15);
             panel3.Controls.Add(panel5);
@@ -508,7 +508,7 @@
             // 
             // panel5
             // 
-            panel5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel5.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel5.BackColor = Color.RoyalBlue;
             panel5.Controls.Add(labelsubtotal);
             panel5.Location = new Point(0, 0);
@@ -518,7 +518,7 @@
             // 
             // labelsubtotal
             // 
-            labelsubtotal.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            labelsubtotal.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             labelsubtotal.AutoSize = true;
             labelsubtotal.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             labelsubtotal.ForeColor = SystemColors.Window;
@@ -709,7 +709,7 @@
             // 
             // panel25
             // 
-            panel25.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel25.Anchor = AnchorStyles.Right;
             panel25.BackColor = Color.Gainsboro;
             panel25.Controls.Add(lbCodVenda);
             panel25.Controls.Add(panel27);
@@ -720,6 +720,7 @@
             // 
             // lbCodVenda
             // 
+            lbCodVenda.Anchor = AnchorStyles.Right;
             lbCodVenda.AutoSize = true;
             lbCodVenda.Font = new Font("Arial Rounded MT Bold", 24F, FontStyle.Regular, GraphicsUnit.Point);
             lbCodVenda.ForeColor = SystemColors.ControlText;
@@ -731,7 +732,7 @@
             // 
             // panel27
             // 
-            panel27.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            panel27.Anchor = AnchorStyles.Right;
             panel27.BackColor = Color.RoyalBlue;
             panel27.Controls.Add(label14);
             panel27.Controls.Add(label7);
@@ -742,7 +743,7 @@
             // 
             // label14
             // 
-            label14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label14.Anchor = AnchorStyles.Right;
             label14.AutoSize = true;
             label14.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label14.ForeColor = SystemColors.Window;
@@ -781,7 +782,7 @@
             // 
             // btnAdicionarProduto
             // 
-            btnAdicionarProduto.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            btnAdicionarProduto.Anchor = AnchorStyles.Right;
             btnAdicionarProduto.BackColor = Color.Green;
             btnAdicionarProduto.Font = new Font("Arial Rounded MT Bold", 18.2F, FontStyle.Regular, GraphicsUnit.Point);
             btnAdicionarProduto.ForeColor = SystemColors.Window;
